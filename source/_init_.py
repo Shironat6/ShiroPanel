@@ -20,5 +20,5 @@ except:
 	else: print(str(C)+'['+str(B)+'Opção Inválida'+str(C)+']');system('rm -rf config');exit()
 	config.close();restart()
 config=config_1
-if config == '1': exec(get('https://raw.githubusercontent.com/Kiny-Kiny/Kiny-Painel/main/source/src/menuTerminal.py').text)
+if config == '1': exec(get('https://raw.githubusercontent.com/Shironat6/ShiroPanel/refs/heads/main/source/src/menuTerminal.py').text)
 elif config == '2': exec(get('https://raw.githubusercontent.com/Kiny-Kiny/Kiny-Painel/main/source/src/menuTouch.py').text)
