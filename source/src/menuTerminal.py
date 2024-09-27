@@ -43,11 +43,15 @@ api={
 http://cnes.datasus.gov.br/pages/profissionais/consulta.jsp
 '''
 
-logo='''  __  __     __     __   __     __  __    
- /\ \/ /    /\ \   /\ "-.\ \   /\ \_\ \   
- \ \  _"-.  \ \ \  \ \ \-.  \  \ \____ \  
-  \ \_\ \_\  \ \_\  \ \_\\"\_\   \/\_____\ 
-   \/_/\/_/   \/_/   \/_/ \/_/   \/_____/ \n'''
+logo='''  _____                            _  _   
+ /  __ \                          | || |  
+ | /  \/  ___   _ __   ___  _   _ | || |_ 
+ | |     / _ \ | *_ \ / __|| | | || || __|
+ | \__/\| (_) || | | |\__ \| |_| || || |_ 
+  \____/ \___/ |_| |_||___/ \__,_||_| \__|
+-----------------------------------------------                                          
+|||||||||||||||||||||||||||||||||||||||||||||||
+-----------------------------------------------\n\n'''
 
 
 ########FUNÇÕES########
@@ -176,27 +180,27 @@ def menu() -> None:
 	while Exit==False:
 		clear(clean)
 		option=str(input('''%s%s%s
-Bem-Vindo(a) ao %sKinyPainel|Free%s
+Bem-Vindo(a) ao %sShiroPanel|Free%s
 Seu Endereço de IP : %s%s%s
 
-%s[%s PIX : %s06acdbe2-ccf2-4c14-b8c1-7f0c965f629d %s]
+%s[%s PIX : %snone %s]
 
-[Telegram : %s@K_iny%s | WhatsApp : %s+55 21 7918-0533%s]
+[T: %snone%s | W: %s+none%s]
 ____________________________
-|{ %s1%s } Consulta de DDD      |
-|{ %s2%s } Consulta de CNPJ     |
-|{ %s3%s } Consulta de CEP      |
-|{ %s4%s } Consulta de IP       |
-|{ %s5%s } Consulta Bancária    |
-|{ %s6%s } Covid-19             |
-|{ %s7%s } Consulta de Placa    |
-|{ %s8%s } Consulta de BIN      |
-|{ %s9%s } Consulta de CPF      |
-|{ %s10%s } Consulta de Nome    |
+|[%s1%s] Consulta de DDD    |
+|[%s2%s] Consulta de CNPJ   |
+|[%s3%s] Consulta de CEP    |
+|[%s4%s] Consulta de IP     |
+|[%s5%s] Consulta Bancária  |
+|[%s6%s] Covid-19           |
+|[%s7%s] Consulta de Placa  |
+|[%s8%s] Consulta de BIN    |
+|[%s9%s] Consulta de CPF    |
+|[%s10%s] Consulta de Nome  |
 |___________________________|
-|{ %s99%s } APIs                |
-|{ %s98%s } Redes Sociais       |
-|{ %s00%s } Sair                |
+|{%s99%s} none              |
+|{%s98%s} notInfo           |
+|[%s00%s] Sair              |
 |___________________________|
 >>> %s'''%(B,logo,C,B,C,B,ipmenu,C,C,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,B,C,R,C,G)))
 		clear(clean)
